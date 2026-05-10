@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>售后服务 - 联系我们</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+            background: linear-gradient(180deg, #1e3a5f 0%, #2d5a87 50%, #4a90c2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 24px 20px;
+        }
+        
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+            padding: 32px 28px 36px;
+            max-width: 380px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        .logo-container {
+            width: 250px;
+            height: 150px;
+            margin: 0 auto 20px;
+        }
+        
+        .logo {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+        
+        .subtitle {
+            margin: -50px 0 50px;
+            color: rgba(255, 255, 255, 0.85);
+            font-size: 14px;
+            letter-spacing: 0.5px;
+        }
+        
+        .service-hours {
+            background: rgba(255, 255, 255, 0.15);
+            border-radius: 14px;
+            padding: 20px 18px;
+            color: white;
+            text-decoration: none;
+            display: block;
+            transition: all 0.2s ease;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+        }
+        
+        .service-hours:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .service-hours h3 {
+            margin: 0 0 6px;
+            font-size: 12px;
+            font-weight: 500;
+            opacity: 0.9;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .service-hours p {
+            margin: 0;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        
+        .wechat-section {
+            margin-top: 28px;
+            padding-top: 24px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .wechat-title {
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 14px;
+            font-weight: 500;
+        }
+        
+        .wechat-qr {
+            width: 140px;
+            height: 140px;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            margin: 0 auto;
+            display: block;
+            background: white;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <!-- Logo -->
+    <div class="logo-container">
+        <img src="logo2.png" alt="品牌 Logo" class="logo">
+    </div>
+    
+    <!-- 副标题 -->
+    <p class="subtitle">专业维修服务 · 快速响应 · 品质保障</p>
+    
+    <!-- 服务热线 -->
+    <a href="tel:+8617398396981" class="service-hours">
+        <h3>24 小时服务热线</h3>
+        <p>173-9839-6981</p>
+    </a>
+    
+    <!-- 微信二维码 -->
+    <div class="wechat-section">
+        <p class="wechat-title">长按扫描二维码 添加微信客服</p>
+        <img src="weixin.png" alt="微信二维码" class="wechat-qr">
+    </div>
+</div>
+
+</body>
+</html>
